@@ -1,0 +1,327 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scripts of the Cosmos</title>
+  <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/020/033/057/original/golden-crown-for-king-and-queen-and-success-on-transparent-background-free-png.png" type="image/png">
+
+  <style>
+    body {
+      background: url('background.png');
+      background-size: auto; 
+      background-position: center;
+      color: transparent;
+      font-family: 'VT323', monospace;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: transparent;
+      padding: 15px;
+      text-align: center;
+      width: 100%;
+    }
+
+    h1,
+    h2,
+    p,
+    a {
+      background-image: linear-gradient(to right top, #12c2e9, #c471ed,#f64f59);
+      position: relative;
+      z-index: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      margin: 0;
+    }
+
+    header h1,
+    header h2 {
+      background: ;
+    }
+
+    .computer-warning {
+      background-color: transparent;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      font-size: 1.2em;
+      margin-top: 10px;
+      border-radius: 5px;
+      color: #ffffff;
+      background-image: -webkit-linear-gradient(0deg, #12c2e9, #c471ed,#f64f59);
+      background-clip: text;
+      -webkit-background-clip: text;
+      text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .bookmarklet-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .bookmarklet {
+      border: 2px solid transparent;
+      margin: 5px;
+      padding: 5px;
+      width: 120px;
+      text-align: center;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
+      box-sizing: border-box;
+      color:#12c2e9;
+      background-image: linear-gradient(to right top, #12c2e9, #c471ed,#f64f59);
+      -webkit-background-clip: text;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
+      position: relative;
+      z-index: 1;
+    }
+
+    .bookmarklet:hover {
+      background-color: transparent;
+      color: #12c2e9;
+      border-color: #12c2e9;
+    }
+
+    .discord-join-button {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .discord-join-button a {
+      display: inline-block;
+      padding: 10px;
+      background-image: linear-gradient(to right top, #12c2e9, #c471ed,#f64f59);
+      position: relative;
+      z-index: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    .discord-join-button a:hover {
+      background-color: #12c2e9;
+    }
+
+    .file-boxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 50px 0;
+    }
+
+    .file-box {
+      border: 2px solid #12c2e9;
+      margin: 10px;
+      padding: 10px;
+      width: 200px;
+      text-align: center;
+      color: #12c2e9;
+      border-radius: 5px;
+      background-image: linear-gradient(to right top, #12c2e9, #c471ed,#f64f59);
+      -webkit-background-clip: text;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .file-box a {
+      color: #12c2e9;
+      text-decoration: none;
+    }
+
+    .file-box:hover {
+      background-color: #12c2e9;
+    }
+
+    .file-box a:hover {
+      color: #12c2e9;
+    }
+
+    .how-to-use-grabbers {
+      font-size: 1.5em;
+      background-image: linear-gradient(to right top, #12c2e9, #c471ed,#f64f59);
+      position: relative;
+      z-index: 1;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      margin: 20px 0;
+    }
+
+    .footer {
+      background-color: transparent;
+      padding: 15px;
+      text-align: center;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Scripts of the Cosmos</h1>
+        <h2>Unleash the Power of Scripts</h2>
+    </header>
+<script>
+    `javascript:(function(){    /* Ad-B-Gone: Bookmarklet that removes obnoxious ads from pages */    var selectors = [    /* By ID: */    '#sidebar-wrap', '#advert', '#xrail', '#middle-article-advert-container',    '#sponsored-recommendations', '#around-the-web', '#sponsored-recommendations',    '#taboola-content', '#taboola-below-taboola-native-thumbnails', '#inarticle_wrapper_div',    '#rc-row-container', '#ads', '#at-share-dock', '#at4-share', '#at4-follow', '#right-ads-rail',    'div#ad-interstitial', 'div#advert-article', 'div#ac-lre-player-ph',    /* By Class: */    '.ad', '.avert', '.avert__wrapper', '.middle-banner-ad', '.advertisement',    '.GoogleActiveViewClass', '.advert', '.cns-ads-stage', '.teads-inread', '.ad-banner',    '.ad-anchored', '.js_shelf_ads', '.ad-slot', '.antenna', '.xrail-content',    '.advertisement__leaderboard', '.ad-leaderboard', '.trc_rbox_outer', '.ks-recommended',    '.article-da', 'div.sponsored-stories-component', 'div.addthis-smartlayers',    'div.article-adsponsor', 'div.signin-prompt', 'div.article-bumper', 'div.video-placeholder',    'div.top-ad-container', 'div.header-ad', 'div.ad-unit', 'div.demo-block', 'div.OUTBRAIN',    'div.ob-widget', 'div.nwsrm-wrapper', 'div.announcementBar', 'div.partner-resources-block',    'div.arrow-down', 'div.m-ad', 'div.story-interrupt', 'div.taboola-recommended',    'div.ad-cluster-container', 'div.ctx-sidebar', 'div.incognito-modal', '.OUTBRAIN', '.subscribe-button',    '.ads9', '.leaderboards', '.GoogleActiveViewElement', '.mpu-container', '.ad-300x600', '.tf-ad-block',    '.sidebar-ads-holder-top', '.ads-one', '.FullPageModal__scroller',    '.content-ads-holder', '.widget-area', '.social-buttons', '.ac-player-ph',    /* Other: */    'script', 'iframe', 'video', 'aside#sponsored-recommendations', 'aside[role="banner"]', 'aside',    'amp-ad', 'span[id^=ad_is_]', 'div[class*="indianapolis-optin"]', 'div[id^=google_ads_iframe]',    'div[data-google-query-id]', 'section[data-response]', 'ins.adsbygoogle', 'div[data-google-query-id]',    'div[data-test-id="fullPageSignupModal"]', 'div[data-test-id="giftWrap"]' ];    for(let i in selectors) {        let nodesList = document.querySelectorAll(selectors[i]);        for(let i = 0; i < nodesList.length; i++) {            let el = nodesList[i];            if(el && el.parentNode)                el.parentNode.removeChild(el);        }    }})();
+
+`
+  </script>
+
+    <div class="computer-warning">
+        you can only get the bookmarklets on here by computer, sorry
+    </div>
+  <div class="Not owned by me">
+      <h2>Bookmarklets are not made by me!</h2>
+  </div>
+<script>
+       function copyCode(bookmarkletName) {
+                var code;
+                switch (bookmarkletName) {
+                    case 'AutoClicker':
+                        code = `javascript:var DELAY = 1;var autoClickerStyleElement = document.createElement("style");autoClickerStyleElement.innerHTML="*{cursor: crosshair !important;}";document.body.appendChild(autoClickerStyleElement);function addClicker(e) {if(!e.isTrusted) {return;}if(e.target.classList.contains("auto-clicker-target")) {e.target.classList.remove("auto-clicker-target");} else {e.target.classList.add("auto-clicker-target");}document.body.removeChild(autoClickerStyleElement);document.body.removeEventListener("click", addClicker);e.preventDefault();autoClick(e.target);}function autoClick(element) {if(element.classList.contains("auto-clicker-target")) {element.click();setTimeout(function(){ autoClick(element); }, DELAY);}}document.body.addEventListener("click", addClicker, 0);`;
+                        break;
+
+                    case 'HistoryFlooder':
+                        code = `javascript:var num = prompt("History flood amount:");done = false;x = window.location.href;for (var i = 1; i <= num; i++) {history.pushState(0, 0, i == num ? x : i.toString());if (i == num) {done = true}}if (done === true) {alert("History flood successful! " + window.location.href + " now appears in your history " + num + (num == 1 ? " time." : " times."))}`;
+                        break;
+
+                    case 'GoogleDriveDisguise':
+                        code = `javascript:function gcloak() { var link = document.querySelector("link[rel*='icon']") || document.createElement('link');link.type = 'image/x-icon';link.rel = 'shortcut icon';link.href = 'https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico';document.title = 'My Drive - Google Drive';console.log(document.title);document.getElementsByTagName('head')[0].appendChild(link) };gcloak();setInterval(gcloak, 1000);`;
+                         break;
+
+                    case 'Discord':
+                        code = `javascript:open('https://discord.com/app?%27+%27i%27.repeat(16380))`
+                     break;
+
+                    case 'Chaotic click':
+                        code = `javascript:"use strict";var layers = [];var layerContexts = [];var drawings = [];var readyToFade = [];function initializeCanvas() {    var canvas = document.createElement('canvas');    canvas.width = document.body.clientWidth;    canvas.height = document.body.clientHeight;    canvas.style.position = "absolute";    canvas.style.left = 0;    canvas.style.top = 0;    canvas.style.zIndex = 10000;    document.body.appendChild(canvas);    var ctx = canvas.getContext("2d");    canvas.addEventListener('click', handleClick, true, {once: true});    layers.push(canvas);    layerContexts.push(ctx);}initializeCanvas();function handleClick() {    initializeCanvas();    const canvas = layers[drawings.length];    let mouseX;    let mouseY;    const bounds = canvas.getBoundingClientRect();    mouseX = event.pageX - bounds.left - scrollX;    mouseY = event.pageY - bounds.top - scrollY;    mouseX *= canvas.width / bounds.width;    mouseY *= canvas.height / bounds.height;    createClickDesign(drawings.length, mouseX, mouseY);}/* EDIT THESE VALUES TO GENERATE NEW TYPES OF DESIGNS */var degree = 20;           /* number of initial bars spawned for each tree */var density = 1;           /* number of trees spawned at click site */var initialBarLength = 1;  /* length of initial bars */var barIncrement = 0.03;   /* increase in length of successive bars */var radius = 1000;         /* radius of paths in pixels */var patternLength = 1;     /* number of bars for which each new path direction is repeated */var turnLimit = Math.PI;   /* maximum rotation amount for successive bars in degrees */function createClickDesign(clickNumber, mouseX, mouseY) {    drawings.push(new Array());    readyToFade[clickNumber] = 0;    for (let i = 0; i < density; i++) {        for (let j = 0; j < degree; j++) {            generate(clickNumber, mouseX, mouseY, mouseX + Math.cos(j*2*Math.PI/degree) * initialBarLength, mouseY + Math.sin(j*2*Math.PI/degree) * initialBarLength, 0, Math.floor(Math.random() * 2 + 1), Math.floor(radius / initialBarLength), initialBarLength);        }    }}function generate(clickNumber, x0, y0, x1, y1, patternCount, lastDir, count, barLength) {    layerContexts[clickNumber].beginPath();    layerContexts[clickNumber].moveTo(x0, y0);    layerContexts[clickNumber].lineTo(x1, y1);    const colorVal = count / radius * initialBarLength * 255;    layerContexts[clickNumber].strokeStyle="rgb(" + (255 - colorVal) + ", " + (255 - colorVal) + ", " + (255 - colorVal) + ")";    const path = {        x0: x0,        y0: y0,        x1: x1,        y1: y1,        strokeColor: layerContexts[clickNumber].strokeStyle    };    drawings[clickNumber].push(path);    layerContexts[clickNumber].globalAlpha = 1;    layerContexts[clickNumber].stroke();    if (count <= 1) {        readyToFade[clickNumber]++;        if (readyToFade[clickNumber] == density * degree) {            fadeOut(clickNumber, 0.98);        }    } else {        let dir;        if (patternCount < patternLength) {            dir = lastDir;        } else {            dir = Math.floor(Math.random() * 2) + 1;            patternCount = 0;        }        let angle = Math.atan2(y1 - y0, x1 - x0);        const angleDelta = Math.random() * turnLimit;        if (dir == 1) {            angle += angleDelta;        } else {            angle -= angleDelta;        }        const x2 = x1 + (barLength + barIncrement) * Math.cos(angle);        const y2 = y1 + (barLength + barIncrement) * Math.sin(angle);        setTimeout(generate, 2, clickNumber, x1, y1, x2, y2, patternCount + 1, dir, count - 1, barLength + barIncrement);    }}function fadeOut(clickNumber, alpha) {    const drawing = drawings[clickNumber];    layerContexts[clickNumber].clearRect(0, 0, layers[clickNumber].width, layers[clickNumber].height);    for (let j = 0; j < drawing.length; j++) {        let path = drawing[j];        layerContexts[clickNumber].beginPath();        layerContexts[clickNumber].moveTo(path.x0, path.y0);        layerContexts[clickNumber].lineTo(path.x1, path.y1);        layerContexts[clickNumber].strokeStyle = path.strokeColor;        layerContexts[clickNumber].globalAlpha = Math.max(0, alpha);        layerContexts[clickNumber].stroke();    }    if (alpha > 0) {        setTimeout(fadeOut, 40, clickNumber, alpha - 0.02);    }}`
+                    break;
+
+                    case 'Mouse light':
+                        code =`javascript:(function()%7Bvar style %3D document.createElement("style")%3B%0Adocument.body.appendChild(style)%3B%0A%0Avar canvas %3D document.createElement("canvas")%3B%0Acanvas.id %3D "canvas"%3B%0Adocument.body.appendChild(canvas)%3B%0A%0Avar context %3D canvas.getContext("2d")%3B%0A%0A%0Afunction outlineBounds() %7B%0A%09context.clearRect(0%2C 0%2C window.innerWidth%2C window.innerHeight)%3B%0A%09context.beginPath()%3B%0A%09var bounds %3D Array.from(document.querySelectorAll("*")).map(function (e) %7B%0A%09%09return e.getBoundingClientRect()%3B%0A%09%7D)%3B%0A%09var withinBounds %3D bounds.filter(function (e) %7B%0A%09%09var viewVertical %3D window.scrollY < e.bottom %7C%7C e.top < window.scrollY %2B window.innerHeight%3B%0A%09%09var viewHorizontal %3D window.scrollX < e.right %7C%7C e.left < window.scrollX %2B window.innerWidth%3B%0A%09%09return viewVertical %26%26 viewHorizontal%3B%0A%09%7D)%3B%0A%09withinBounds.forEach(function (e) %7B%0A%09%09context.rect(%0A%09%09%09e.left%2C%0A%09%09%09e.top%2C%0A%09%09%09e.right - e.left%2C%0A%09%09%09e.bottom - e.top%0A%09%09)%3B%0A%09%7D)%3B%0A%09context.stroke()%3B%0A%7D%0Afunction fillBounds() %7B%0A%09context.clearRect(0%2C 0%2C window.innerWidth%2C window.innerHeight)%3B%0A%09context.fillStyle %3D "%2300000011"%3B%0A%09%0A%09var bounds %3D Array.from(document.querySelectorAll("*")).map(function (e) %7B%0A%09%09return e.getBoundingClientRect()%3B%0A%09%7D)%3B%0A%09var withinBounds %3D bounds.filter(function (e) %7B%0A%09%09var viewVertical %3D window.scrollY < e.bottom %7C%7C e.top < window.scrollY %2B window.innerHeight%3B%0A%09%09var viewHorizontal %3D window.scrollX < e.right %7C%7C e.left < window.scrollX %2B window.innerWidth%3B%0A%09%09return viewVertical %26%26 viewHorizontal%3B%0A%09%7D)%3B%0A%09withinBounds.forEach(function (e) %7B%0A%09%09context.fillRect(%0A%09%09%09e.left%2C%0A%09%09%09e.top%2C%0A%09%09%09e.right - e.left%2C%0A%09%09%09e.bottom - e.top%0A%09%09)%3B%0A%09%7D)%3B%0A%7D%0A%0Afunction resizeCanvas() %7B%0A%09style.innerHTML %3D %60%23canvas %7B%0A%09%09position%3A fixed%3B%0A%09%09left%3A 0%3B%0A%09%09top%3A 0%3B%0A%09%09width%3A 100%25%3B%0A%09%09height%3A 100%25%3B%0A%09%09z-index%3A 9999%3B%0A%09%09pointer-events%3A none%3B%0A%09%7D%60%3B%0A%09canvas.width %3D window.innerWidth%3B%0A%09canvas.height %3D window.innerHeight%3B%0A%09fillBounds()%3B%0A%7D%0A%0AresizeCanvas()%3B%0A%0Awindow.addEventListener("scroll"%2C fillBounds)%3B%0Awindow.addEventListener("resize"%2C resizeCanvas)%3B%0A%0Avar pixelSize %3D 8%3B%0Avar halfPixel %3D Math.floor(pixelSize %2F 2)%3B%0A%0Afunction drawPixel(x%2C y%2C r%2C g%2C b%2C a) %7B%0A%09context.fillStyle %3D "rgba(" %2B %5Br%2C g%2C b%2C a%5D.join("%2C ") %2B ")"%3B%0A%09context.fillRect(x - halfPixel%2C y - halfPixel%2C pixelSize%2C pixelSize)%3B%0A%7D%0A%0Afunction distanceSquared(a%2C b) %7B%0A%09var dx %3D b.x - a.x%3B%0A%09var dy %3D b.y - a.y%3B%0A%09return dx * dx %2B dy * dy%3B%0A%7D%0A%0Afunction main(mouse) %7B%0A%09fillBounds()%3B%0A%09var data %3D context.getImageData(0%2C 0%2C context.canvas.width%2C context.canvas.height).data%3B%0A%09context.clearRect(0%2C 0%2C context.canvas.width%2C context.canvas.height)%3B%0A%09for (var x %3D 0%3B x < context.canvas.width%3B x %2B%3D pixelSize) %7B%0A%09%09for (var y %3D 0%3B y < context.canvas.height%3B y %2B%3D pixelSize) %7B%0A%09%09%09var pixel %3D %7B"x"%3A x%2C "y"%3A y%7D%3B%0A%09%09%09var intensityMouse %3D 1 %2F distanceSquared(pixel%2C mouse)%3B%0A%09%09%09var colorMouse %3D %7B"r"%3A 0%2C "g"%3A 255%2C "b"%3A 255%7D%3B%0A%09%09%09var copy %3D %7B"x"%3A window.innerWidth - mouse.x%2C "y"%3A window.innerHeight - mouse.y%7D%3B%0A%09%09%09var intensityCopy %3D 1 %2F distanceSquared(pixel%2C copy)%3B%0A%09%09%09var colorCopy %3D %7B"r"%3A 255%2C "g"%3A 0%2C "b"%3A 0%7D%3B%0A%09%09%09var intensity %3D intensityMouse %2B intensityCopy%3B%0A%09%09%09var color %3D %7B%0A%09%09%09%09"r"%3A Math.floor((colorMouse.r * intensityMouse %2B colorCopy.r * intensityCopy) %2F intensity)%2C%0A%09%09%09%09"g"%3A Math.floor((colorMouse.g * intensityMouse %2B colorCopy.g * intensityCopy) %2F intensity)%2C%0A%09%09%09%09"b"%3A Math.floor((colorMouse.b * intensityMouse %2B colorCopy.b * intensityCopy) %2F intensity)%0A%09%09%09%7D%3B%0A%09%09%09if (intensity > 0.000001) %7B%0A%09%09%09%09var ha %3D 256 * intensity * (256 - data%5B(x %2B y * window.innerWidth) * 4 %2B 3%5D)%3B%0A%09%09%09%09drawPixel(x%2C y%2C Math.floor(color.r * ha)%2C Math.floor(color.g * ha)%2C Math.floor(color.b * ha)%2C 1 - ha)%3B%0A%09%09%09%7D%0A%09%09%7D%0A%09%7D%0A%7D%0A%0Awindow.addEventListener("mousemove"%2C main)%3B%7D)()%3B`
+                     break;
+
+                    case 'area remover':
+                        code = `javascript:for(var i=0; i<(document.getElementsByTagName('a')).length; i++) {(document.getElementsByTagName('a')[i]).style.pointerEvents = 'none';}function handler(e) {e = e || window.event;var target = e.target || e.srcElement;target.style.display = 'none';document.removeEventListener('click', handler, false);cursor('default');for(var i=0; i<(document.getElementsByTagName('a')).length; i++) {(document.getElementsByTagName('a')[i]).style.pointerEvents = 'initial';}}document.addEventListener('click', handler, false);cursor('crosshair');function cursor(cur) { document.body.style.cursor = cur; }`
+                 break;
+
+                    case 'Gravity':
+                        code =`javascript:(function(){ var elements = document.querySelectorAll("*"); var initialPositions = []; for (var i = 0; i < elements.length; i++) { var rect = elements[i].getBoundingClientRect(); initialPositions.push({ x: rect.x, y: rect.y }); } var gravity = 0.1; // adjust this value to change gravity strength function fall() { for (var i = 0; i < elements.length; i++) { var rect = elements[i].getBoundingClientRect(); elements[i].style.top = rect.y + gravity + "px"; } } var timer = setInterval(function() { fall(); var screenBottom = window.innerHeight; for (var i = 0; i < elements.length; i++) { var rect = elements[i].getBoundingClientRect(); if (rect.bottom >= screenBottom) { elements[i].style.top = initialPositions[i].y + "px"; } } }, 30); // adjust this value to change the animation speed })();`
+                    break;
+
+                    case 'ADBlocker':
+                        code =`javascript:(function(){    /* Ad-B-Gone: Bookmarklet that removes obnoxious ads from pages */    var selectors = [    /* By ID: */    '#sidebar-wrap', '#advert', '#xrail', '#middle-article-advert-container',    '#sponsored-recommendations', '#around-the-web', '#sponsored-recommendations',    '#taboola-content', '#taboola-below-taboola-native-thumbnails', '#inarticle_wrapper_div',    '#rc-row-container', '#ads', '#at-share-dock', '#at4-share', '#at4-follow', '#right-ads-rail',    'div#ad-interstitial', 'div#advert-article', 'div#ac-lre-player-ph',    /* By Class: */    '.ad', '.avert', '.avert__wrapper', '.middle-banner-ad', '.advertisement',    '.GoogleActiveViewClass', '.advert', '.cns-ads-stage', '.teads-inread', '.ad-banner',    '.ad-anchored', '.js_shelf_ads', '.ad-slot', '.antenna', '.xrail-content',    '.advertisement__leaderboard', '.ad-leaderboard', '.trc_rbox_outer', '.ks-recommended',    '.article-da', 'div.sponsored-stories-component', 'div.addthis-smartlayers',    'div.article-adsponsor', 'div.signin-prompt', 'div.article-bumper', 'div.video-placeholder',    'div.top-ad-container', 'div.header-ad', 'div.ad-unit', 'div.demo-block', 'div.OUTBRAIN',    'div.ob-widget', 'div.nwsrm-wrapper', 'div.announcementBar', 'div.partner-resources-block',    'div.arrow-down', 'div.m-ad', 'div.story-interrupt', 'div.taboola-recommended',    'div.ad-cluster-container', 'div.ctx-sidebar', 'div.incognito-modal', '.OUTBRAIN', '.subscribe-button',    '.ads9', '.leaderboards', '.GoogleActiveViewElement', '.mpu-container', '.ad-300x600', '.tf-ad-block',    '.sidebar-ads-holder-top', '.ads-one', '.FullPageModal__scroller',    '.content-ads-holder', '.widget-area', '.social-buttons', '.ac-player-ph',    /* Other: */    'script', 'iframe', 'video', 'aside#sponsored-recommendations', 'aside[role="banner"]', 'aside',    'amp-ad', 'span[id^=ad_is_]', 'div[class*="indianapolis-optin"]', 'div[id^=google_ads_iframe]',    'div[data-google-query-id]', 'section[data-response]', 'ins.adsbygoogle', 'div[data-google-query-id]',    'div[data-test-id="fullPageSignupModal"]', 'div[data-test-id="giftWrap"]' ];    for(let i in selectors) {        let nodesList = document.querySelectorAll(selectors[i]);        for(let i = 0; i < nodesList.length; i++) {            let el = nodesList[i];            if(el && el.parentNode)                el.parentNode.removeChild(el);        }    }})();`
+
+break;
+
+                    case 'Url':
+                        code =`javascript:(function(){var i, nd; function copyChildren(a,b){var i, nn; for(i=0;i<a.childNodes.length;++i) { nn = a.childNodes[i].cloneNode(true); if(nd.importNode) nn = nd.importNode(nn, true); b.appendChild(nn); } } nd=window.open().document; nd.open(); nd.close(); /*140681*/ copyChildren(document.getElementsByTagName("head")[0], nd.getElementsByTagName("head")[0]); copyChildren(document.body, nd.body);})();`
+
+                    break;
+
+                    case 'Mouse trail':
+                        code =`javascript: var opt = 0.1; var pen = 'block'; var size = 10; var clr = "blue"; var rate = 0.005; var userrate=5; alert("Press C To Change The Color And R To Change The Rate."); function mousemove(event) { var x = event.clientX; var y = event.clientY; x=x-8; y=y-8; (function() { var elem = document.createElement('div'); var body = document.getElementsByTagName('body')[0]; body.appendChild(elem); elem.style.position = 'fixed'; elem.style.top = '' + y + 'px'; elem.style.left = '' + x + 'px'; elem.style.margin = '10px'; elem.style.paddingTop = '10px'; elem.style.width = '' + size + 'px'; elem.style.height = '' + size + 'px'; elem.style.zIndex = 10000; elem.style.opacity = opt; elem.style.color = '' + clr + ''; elem.style.backgroundColor = '' + clr + ''; elem.style.border = '0px solid white'; elem.style.textAlign = 'center'; elem.id = 'paint'; elem.style.display = '' + pen + ''; elem.innerText = ''; function repeat() { elem.style.opacity = elem.style.opacity - rate; } setInterval(repeat, 15); }()); } window.addEventListener("keydown", function(event) { if (event.key == "r") { userrate=prompt("What Would You Like The Rate To Be? The Lower The Number, The Faster The Trail Disappears! recommended: 5"); rate=userrate/1000; } if (event.key == "c") { clr=prompt("What Would You Like The Color To Be? ex: blue"); } }); window.addEventListener('mousemove', mousemove); ` 
+                   
+                if (code) {
+                    prompt("Copy this code:", code);
+                }
+            }
+    
+</script>
+
+
+
+ 
+
+   <div class="bookmarklet-container">
+      <div class="bookmarklet" onclick="copyCode('ADBlocker')">Ad Blocker</div>  
+      <div class="bookmarklet" onclick="copyCode('area remover')">Area Remover</div>
+    
+        <div class="bookmarklet" onclick="copyCode('AutoClicker')">Auto Clicker</div>
+        <div class="bookmarklet" onclick="copyCode('Chaotic click')">Chaotic Clicker</div>
+        <div class="bookmarklet" onclick="copyCode('Discord')">Discord Opener</div>
+        <div class="bookmarklet" 
+          onclick="copyCode('GoogleDriveDisguise')">Drive Disguise</div>
+       <div class="bookmarklet" 
+          onclick="copyCode('Gravity')">Gravity</div>
+        <div class="bookmarklet" onclick="copyCode('HistoryFlooder')">History Flooder</div>
+        <div class="bookmarklet" onclick="copyCode('Mouse light')">Mouse Light</div>
+      <div class="bookmarklet" onclick="copyCode('Mouse trail')">Mouse Trail</div>
+      <div class="bookmarklet" onclick="copyCode('Url')">Tabcloner</div>
+   </div>
+
+    <div class="how-to-guide">
+        <h2>How to Use Scripts of the Cosmos</h2>
+        <p>1. Click on the desired bookmarklet to reveal its code.</p>
+        <p>2. Copy the code to your clipboard.</p>
+        <p>3. Create a new bookmark in your browser and paste the copied code into the bookmark</p>
+        <p>4. Enjoy the magical powers of Scripts of the Cosmos!</p>
+    </div>
+  <header>
+      <h1>Hacking Tools</h1>
+    <h1>Only works through any terminal with python installed</h1>
+  </header>
+
+
+  <div class="file-box">
+      <h3>Multi grabber builder</h3>
+    
+      <a href="Xmulti.py" download>Xmulti</a>
+  </div>
+
+ 
+  <div class="file-box">
+      <h3>Roblox grabber builder</h3>
+      
+      <a href="rotaker.py" download>rotaker</a>
+  </div>
+
+
+
+
+    <div class="how-to-use-grabbers">
+      How to Use Grabbers
+   
+    <p>1. Before downloading Install python from the official site.</p>
+    <p>2. After click the grabber you want to use</p>
+    <p>3. It will download the file you selected after that run it by double clicking the file.</p>
+    <p>4. It will build a file that when you send to others and they run it they will get info taken and it will be sent to you</p>
+  </div>
+
+  
+  
+  
+  
+    <div class="about-me">
+        <h2>About this site</h2>
+        <p>This site was made for two purposes, to help others and have fun. We help others by having codes they can easily use, this site will be updated as much as possible as fast as possible</p>
+    </div>
+    <div class="discord-join-button">
+        <a href="https://discord.gg/WVsBY62hSA" target="_blank">Join ℭ𝔬𝔪𝔪𝔲𝔫𝔦𝔱𝔶 𝔒𝔣 𝔗𝔥𝔢 ℭ𝔬𝔰𝔪𝔬𝔰</a>
+    </div>
+
+
+  <div class="footer">
+      <p>© 2023 Scripts of the Cosmos. All rights reserved.</p>
+  </div>
+  
+</body>
+
+</html>
